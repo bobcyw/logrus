@@ -1,13 +1,10 @@
-// The Test package is used for testing logrus. It is here for backwards
-// compatibility from when logrus' organization was upper-case. Please use
-// lower-case logrus and the `null` package instead of this one.
-package test
+package null
 
 import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 // Hook is a hook designed for dealing with logs in test scenarios.
